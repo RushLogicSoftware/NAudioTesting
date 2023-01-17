@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B3175CE8-AAA2-43C9-91B1-1D72A16580A8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NAudioTest</RootNamespace>
+    <AssemblyName>NAudioTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NAudio, Version=1.10.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.1.10.0\lib\net35\NAudio.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\WaveProviderToWaveStream.cs" />
+    <Compile Include="Asio\AsioConfigOptions.cs" />
+    <Compile Include="Asio\AsioConfiguration.cs" />
+    <Compile Include="Asio\AsioRecordAndPlaybackTests.cs" />
+    <Compile Include="_TestOptionSelection\AudioConcatenationTestOptions.cs" />
+    <Compile Include="_TestOptionSelection\AudioConversionTestOptions.cs" />
+    <Compile Include="AudioFileDetailPrinter.cs" />
+    <Compile Include="_TestOptionSelection\AudioMixingTestOptions.cs" />
+    <Compile Include="_TestOptionSelection\AudioSynthesisTestOptions.cs" />
+    <Compile Include="BitDepthConversion\BitDepthConverter.cs" />
+    <Compile Include="BitDepthConversion\IEEEFloatToWaveProvider24.cs" />
+    <Compile Include="_TestOptionSelection\BitDepthSelector.cs" />
+    <Compile Include="_TestOptionSelection\ChannelConversionTestOptions.cs" />
+    <Compile Include="Channels\ChannelChanger.cs" />
+    <Compile Include="Channels\StereoToMonoSampleProvider.cs" />
+    <Compile Include="Codecs\GSM\GSMTesting.cs" />
+    <Compile Include="Codecs\LAME\LameConfiguration.cs" />
+    <Compile Include="Codecs\LAME\LameTest.cs" />
+    <Compile Include="Codecs\MFT\MftAacTesting.cs" />
+    <Compile Include="Codecs\MFT\MftCapabilityChecker.cs" />
+    <Compile Include="_TestOptionSelection\CodecTestOptions.cs" />
+    <Compile Include="FormatConversions\FileFormatConverter.cs" />
+    <Compile Include="EditingAudio\AudioConcatinator.cs" />
+    <Compile Include="EditingAudio\MP3Extractor.cs" />
+    <Compile Include="MediaTypeDetailPrinter.cs" />
+    <Compile Include="Mixing\RealTimeEndlessMixingTest.cs" />
+    <Compile Include="PlaybackTests\WaveOutConfigOptions.cs" />
+    <Compile Include="PlaybackTests\WaveOutPlaybackTest.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\ClippingSampleProvider.cs" />
+    <Compile Include="ReadingFormatDetails\AudioFormatDetailReader.cs" />
+    <Compile Include="_TestOptionSelection\RecordingTestOptions.cs" />
+    <Compile Include="RecordingTests\WaveInConfigOptions.cs" />
+    <Compile Include="RecordingTests\WaveInRecordingTest.cs" />
+    <Compile Include="_TestOptionSelection\ResamplingTestOptions.cs" />
+    <Compile Include="Resampling\ResamplingTest.cs" />
+    <Compile Include="SynthesizingSamples\PCMWavSynthTest.cs" />
+    <Compile Include="AudioTestingPaths.cs" />
+    <Compile Include="TimestampToStringConverter.cs" />
+    <Compile Include="_TestOptionSelection\UserOptionSelector.cs" />
+    <Compile Include="WaveFormatConfig.cs" />
+    <Compile Include="_TestOptionSelection\WaveOutTestOptions.cs" />
+    <Compile Include="_TestOptionSelection\AudioExtractionTestOptions.cs" />
+    <Compile Include="_TestOptionSelection\AudioFileDetailTestOptions.cs" />
+    <Compile Include="_TestOptionSelection\PlaybackTestOptions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_TestOptionSelection\_README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

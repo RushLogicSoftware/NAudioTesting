@@ -1,0 +1,42 @@
+c:\users\rush\documents\visual studio 2015\Projects\NAudioTest\NAudioTest\bin\Debug\NAudioTest.exe.config
+c:\users\rush\documents\visual studio 2015\Projects\NAudioTest\NAudioTest\bin\Debug\NAudioTest.exe
+c:\users\rush\documents\visual studio 2015\Projects\NAudioTest\NAudioTest\bin\Debug\NAudioTest.pdb
+c:\users\rush\documents\visual studio 2015\Projects\NAudioTest\NAudioTest\bin\Debug\NAudio.dll
+c:\users\rush\documents\visual studio 2015\Projects\NAudioTest\NAudioTest\bin\Debug\NAudio.xml
+c:\users\rush\documents\visual studio 2015\Projects\NAudioTest\NAudioTest\obj\Debug\NAudioTest.exe
+c:\users\rush\documents\visual studio 2015\Projects\NAudioTest\NAudioTest\obj\Debug\NAudioTest.pdb
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudioTest.exe.config
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\obj\Debug\NAudioTest.exe
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\obj\Debug\NAudioTest.pdb
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudioTest.exe
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudioTest.pdb
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudio.dll
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudio.xml
+D:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudioTest.exe.config
+D:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\obj\Debug\NAudioTest.exe
+D:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\obj\Debug\NAudioTest.pdb
+D:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudioTest.exe
+D:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudioTest.pdb
+D:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudio.dll
+D:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest\NAudioTest\bin\Debug\NAudio.xml
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\bin\Debug\NAudioTest.exe.config
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\bin\Debug\NAudioTest.exe
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\bin\Debug\NAudioTest.pdb
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\bin\Debug\NAudio.dll
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\bin\Debug\NAudio.xml
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\obj\Debug\NAudioTest.csproj.SuggestedBindingRedirects.cache
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\obj\Debug\NAudioTest.csproj.CoreCompileInputs.cache
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\obj\Debug\NAudioTest.csproj.CopyComplete
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\obj\Debug\NAudioTest.exe
+E:\Research\Microsoft Development\C#\PRACTICE PROGRAMS\NAudioTest_2\NAudioTest\obj\Debug\NAudioTest.pdb
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\bin\Debug\NAudioTest.exe.config
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\bin\Debug\NAudioTest.exe
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\bin\Debug\NAudioTest.pdb
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\bin\Debug\NAudio.dll
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\bin\Debug\NAudio.xml
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\obj\Debug\NAudioTest.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\obj\Debug\NAudioTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\obj\Debug\NAudioTest.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\obj\Debug\NAudioTest.csproj.CopyComplete
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\obj\Debug\NAudioTest.exe
+C:\Users\Administrator\Desktop\RushLogic\GitHub\NAudioTesting\NAudioTest\obj\Debug\NAudioTest.pdb
